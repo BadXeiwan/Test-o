@@ -1,0 +1,513 @@
+local NewGUI = Instance.new("ScreenGui")
+local MainFrame = Instance.new("Frame")
+local UICorner = Instance.new("UICorner")
+local UIGradient = Instance.new("UIGradient")
+local Home = Instance.new("TextButton")
+local UICorner_2 = Instance.new("UICorner")
+local UIGradient_2 = Instance.new("UIGradient")
+local TextLabel = Instance.new("TextLabel")
+local HomeFrame = Instance.new("Frame")
+local UICorner_3 = Instance.new("UICorner")
+local UIGradient_3 = Instance.new("UIGradient")
+local TextLabel_2 = Instance.new("TextLabel")
+local TextLabel_3 = Instance.new("TextLabel")
+local TextLabel_4 = Instance.new("TextLabel")
+local TextLabel_5 = Instance.new("TextLabel")
+local TextLabel_6 = Instance.new("TextLabel")
+local ImageLabel = Instance.new("ImageLabel")
+local UICorner_4 = Instance.new("UICorner")
+local Autobuy = Instance.new("TextButton")
+local UICorner_5 = Instance.new("UICorner")
+local UIGradient_4 = Instance.new("UIGradient")
+local AutoBuyFrame = Instance.new("Frame")
+local UICorner_6 = Instance.new("UICorner")
+local UIGradient_5 = Instance.new("UIGradient")
+local G23CUSTOM = Instance.new("TextButton")
+local UICorner_7 = Instance.new("UICorner")
+local TextLabel_7 = Instance.new("TextLabel")
+local G26 = Instance.new("TextButton")
+local UICorner_8 = Instance.new("UICorner")
+local AR15 = Instance.new("TextButton")
+local UICorner_9 = Instance.new("UICorner")
+local M1GARAND = Instance.new("TextButton")
+local UICorner_10 = Instance.new("UICorner")
+local AK103 = Instance.new("TextButton")
+local UICorner_11 = Instance.new("UICorner")
+local Teleport = Instance.new("TextButton")
+local UICorner_12 = Instance.new("UICorner")
+local UIGradient_6 = Instance.new("UIGradient")
+local TeleportFrame = Instance.new("Frame")
+local UICorner_13 = Instance.new("UICorner")
+local UIGradient_7 = Instance.new("UIGradient")
+local W1 = Instance.new("TextButton")
+local UICorner_14 = Instance.new("UICorner")
+local TextLabel_8 = Instance.new("TextLabel")
+local W2 = Instance.new("TextButton")
+local UICorner_15 = Instance.new("UICorner")
+local W3 = Instance.new("TextButton")
+local UICorner_16 = Instance.new("UICorner")
+local TB = Instance.new("TextButton")
+local UICorner_17 = Instance.new("UICorner")
+
+--Properties:
+
+NewGUI.Name = "New GUI"
+NewGUI.Parent = game.Players.LocalPlayer:WaitForChild("PlayerGui")
+NewGUI.ZIndexBehavior = Enum.ZIndexBehavior.Sibling
+
+MainFrame.Name = "MainFrame"
+MainFrame.Parent = NewGUI
+MainFrame.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+MainFrame.Position = UDim2.new(0.192266375, 0, 0.219197705, 0)
+MainFrame.Size = UDim2.new(0, 577, 0, 363)
+
+UICorner.CornerRadius = UDim.new(0, 10)
+UICorner.Parent = MainFrame
+
+UIGradient.Color = ColorSequence.new{ColorSequenceKeypoint.new(0.00, Color3.fromRGB(138, 138, 138)), ColorSequenceKeypoint.new(1.00, Color3.fromRGB(0, 0, 0))}
+UIGradient.Offset = Vector2.new(-0.00160003081, 0.0316804424)
+UIGradient.Rotation = -2.7591075897217
+UIGradient.Transparency = NumberSequence.new{NumberSequenceKeypoint.new(0.00, 0.00), NumberSequenceKeypoint.new(1.00, 0.18)}
+UIGradient.Parent = MainFrame
+
+Home.Name = "Home"
+Home.Parent = MainFrame
+Home.BackgroundColor3 = Color3.fromRGB(0, 0, 0)
+Home.Position = UDim2.new(0.0123538272, 0, 0.105369717, 0)
+Home.Size = UDim2.new(0, 82, 0, 36)
+Home.Font = Enum.Font.SourceSans
+Home.Text = "Home Tab"
+Home.TextColor3 = Color3.fromRGB(255, 255, 255)
+Home.TextScaled = true
+Home.TextSize = 14.000
+Home.TextWrapped = true
+
+UICorner_2.Parent = Home
+
+UIGradient_2.Color = ColorSequence.new{ColorSequenceKeypoint.new(0.00, Color3.fromRGB(244, 255, 234)), ColorSequenceKeypoint.new(1.00, Color3.fromRGB(213, 213, 213))}
+UIGradient_2.Parent = Home
+
+TextLabel.Parent = MainFrame
+TextLabel.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+TextLabel.BackgroundTransparency = 1.000
+TextLabel.Size = UDim2.new(0, 575, 0, 40)
+TextLabel.Font = Enum.Font.SourceSans
+TextLabel.Text = "Realistic Hood"
+TextLabel.TextColor3 = Color3.fromRGB(255, 255, 255)
+TextLabel.TextScaled = true
+TextLabel.TextSize = 14.000
+TextLabel.TextWrapped = true
+
+HomeFrame.Name = "HomeFrame"
+HomeFrame.Parent = MainFrame
+HomeFrame.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+HomeFrame.Position = UDim2.new(0.171469122, 0, 0.110192835, 0)
+HomeFrame.Size = UDim2.new(0, 467, 0, 315)
+
+UICorner_3.CornerRadius = UDim.new(0, 10)
+UICorner_3.Parent = HomeFrame
+
+UIGradient_3.Color = ColorSequence.new{ColorSequenceKeypoint.new(0.00, Color3.fromRGB(138, 138, 138)), ColorSequenceKeypoint.new(1.00, Color3.fromRGB(0, 0, 0))}
+UIGradient_3.Offset = Vector2.new(-0.00160003081, 0.0316804424)
+UIGradient_3.Rotation = -2.7591075897217
+UIGradient_3.Transparency = NumberSequence.new{NumberSequenceKeypoint.new(0.00, 0.00), NumberSequenceKeypoint.new(1.00, 0.18)}
+UIGradient_3.Parent = HomeFrame
+
+TextLabel_2.Parent = HomeFrame
+TextLabel_2.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+TextLabel_2.BackgroundTransparency = 1.000
+TextLabel_2.Size = UDim2.new(0, 467, 0, 35)
+TextLabel_2.Font = Enum.Font.SourceSans
+TextLabel_2.Text = "To Close the UI"
+TextLabel_2.TextColor3 = Color3.fromRGB(255, 255, 255)
+TextLabel_2.TextScaled = true
+TextLabel_2.TextSize = 14.000
+TextLabel_2.TextWrapped = true
+
+TextLabel_3.Parent = HomeFrame
+TextLabel_3.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+TextLabel_3.BackgroundTransparency = 1.000
+TextLabel_3.Position = UDim2.new(0, 0, 0.111111112, 0)
+TextLabel_3.Size = UDim2.new(0, 467, 0, 35)
+TextLabel_3.Font = Enum.Font.SourceSans
+TextLabel_3.Text = "Press "
+TextLabel_3.TextColor3 = Color3.fromRGB(255, 255, 255)
+TextLabel_3.TextScaled = true
+TextLabel_3.TextSize = 14.000
+TextLabel_3.TextWrapped = true
+
+TextLabel_4.Parent = HomeFrame
+TextLabel_4.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+TextLabel_4.BackgroundTransparency = 1.000
+TextLabel_4.Position = UDim2.new(0, 0, 0.222222239, 0)
+TextLabel_4.Size = UDim2.new(0, 467, 0, 35)
+TextLabel_4.Font = Enum.Font.SourceSans
+TextLabel_4.Text = "\"HOME\""
+TextLabel_4.TextColor3 = Color3.fromRGB(255, 255, 255)
+TextLabel_4.TextScaled = true
+TextLabel_4.TextSize = 14.000
+TextLabel_4.TextWrapped = true
+
+TextLabel_5.Parent = HomeFrame
+TextLabel_5.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+TextLabel_5.BackgroundTransparency = 1.000
+TextLabel_5.Position = UDim2.new(0, 0, 0.333333343, 0)
+TextLabel_5.Size = UDim2.new(0, 467, 0, 35)
+TextLabel_5.Font = Enum.Font.SourceSans
+TextLabel_5.Text = "Key on your keyboard"
+TextLabel_5.TextColor3 = Color3.fromRGB(255, 255, 255)
+TextLabel_5.TextScaled = true
+TextLabel_5.TextSize = 14.000
+TextLabel_5.TextWrapped = true
+
+TextLabel_6.Parent = HomeFrame
+TextLabel_6.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+TextLabel_6.BackgroundTransparency = 1.000
+TextLabel_6.Position = UDim2.new(0, 0, 0.444444448, 0)
+TextLabel_6.Size = UDim2.new(0, 467, 0, 35)
+TextLabel_6.Font = Enum.Font.SourceSans
+TextLabel_6.Text = "Like This"
+TextLabel_6.TextColor3 = Color3.fromRGB(255, 255, 255)
+TextLabel_6.TextScaled = true
+TextLabel_6.TextSize = 14.000
+TextLabel_6.TextWrapped = true
+
+ImageLabel.Parent = HomeFrame
+ImageLabel.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+ImageLabel.Position = UDim2.new(0.0192719493, 0, 0.5746032, 0)
+ImageLabel.Size = UDim2.new(0, 448, 0, 122)
+ImageLabel.Image = "http://www.roblox.com/asset/?id=8216350343"
+
+UICorner_4.CornerRadius = UDim.new(0, 10)
+UICorner_4.Parent = ImageLabel
+
+Autobuy.Name = "Autobuy"
+Autobuy.Parent = MainFrame
+Autobuy.BackgroundColor3 = Color3.fromRGB(0, 0, 0)
+Autobuy.Position = UDim2.new(0.0123538272, 0, 0.226581842, 0)
+Autobuy.Size = UDim2.new(0, 82, 0, 36)
+Autobuy.Font = Enum.Font.SourceSans
+Autobuy.Text = "Auto Buy"
+Autobuy.TextColor3 = Color3.fromRGB(255, 255, 255)
+Autobuy.TextScaled = true
+Autobuy.TextSize = 14.000
+Autobuy.TextWrapped = true
+
+UICorner_5.Parent = Autobuy
+
+UIGradient_4.Color = ColorSequence.new{ColorSequenceKeypoint.new(0.00, Color3.fromRGB(244, 255, 234)), ColorSequenceKeypoint.new(1.00, Color3.fromRGB(213, 213, 213))}
+UIGradient_4.Parent = Autobuy
+
+AutoBuyFrame.Name = "AutoBuyFrame"
+AutoBuyFrame.Parent = MainFrame
+AutoBuyFrame.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+AutoBuyFrame.Position = UDim2.new(0.171469122, 0, 0.110192835, 0)
+AutoBuyFrame.Size = UDim2.new(0, 467, 0, 315)
+AutoBuyFrame.Visible = false
+
+UICorner_6.CornerRadius = UDim.new(0, 10)
+UICorner_6.Parent = AutoBuyFrame
+
+UIGradient_5.Color = ColorSequence.new{ColorSequenceKeypoint.new(0.00, Color3.fromRGB(138, 138, 138)), ColorSequenceKeypoint.new(1.00, Color3.fromRGB(0, 0, 0))}
+UIGradient_5.Offset = Vector2.new(-0.00160003081, 0.0316804424)
+UIGradient_5.Rotation = -2.7591075897217
+UIGradient_5.Transparency = NumberSequence.new{NumberSequenceKeypoint.new(0.00, 0.00), NumberSequenceKeypoint.new(1.00, 0.18)}
+UIGradient_5.Parent = AutoBuyFrame
+
+G23CUSTOM.Name = "G23CUSTOM"
+G23CUSTOM.Parent = AutoBuyFrame
+G23CUSTOM.BackgroundColor3 = Color3.fromRGB(36, 36, 36)
+G23CUSTOM.Position = UDim2.new(0.0620985031, 0, 0.0888888985, 0)
+G23CUSTOM.Size = UDim2.new(0, 408, 0, 42)
+G23CUSTOM.Font = Enum.Font.SourceSans
+G23CUSTOM.Text = "Buy \"G23CUSTOM\""
+G23CUSTOM.TextColor3 = Color3.fromRGB(255, 255, 255)
+G23CUSTOM.TextSize = 24.000
+G23CUSTOM.MouseButton1Down:connect(function()
+	game:GetService("ReplicatedStorage").ToolEvents.G23CUSTOMEvent:FireServer()
+end)
+
+UICorner_7.CornerRadius = UDim.new(0, 10)
+UICorner_7.Parent = G23CUSTOM
+
+TextLabel_7.Parent = AutoBuyFrame
+TextLabel_7.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+TextLabel_7.BackgroundTransparency = 1.000
+TextLabel_7.Size = UDim2.new(0, 467, 0, 22)
+TextLabel_7.Font = Enum.Font.SourceSans
+TextLabel_7.Text = "Auto Buy"
+TextLabel_7.TextColor3 = Color3.fromRGB(255, 255, 255)
+TextLabel_7.TextScaled = true
+TextLabel_7.TextSize = 14.000
+TextLabel_7.TextWrapped = true
+
+G26.Name = "G26"
+G26.Parent = AutoBuyFrame
+G26.BackgroundColor3 = Color3.fromRGB(36, 36, 36)
+G26.Position = UDim2.new(0.0620985031, 0, 0.247619063, 0)
+G26.Size = UDim2.new(0, 408, 0, 42)
+G26.Font = Enum.Font.SourceSans
+G26.Text = "Buy \"G26\""
+G26.TextColor3 = Color3.fromRGB(255, 255, 255)
+G26.TextSize = 24.000
+G26.MouseButton1Down:connect(function()
+	game:GetService("ReplicatedStorage").ToolEvents.G26Event:FireServer()
+end)
+
+UICorner_8.CornerRadius = UDim.new(0, 10)
+UICorner_8.Parent = G26
+
+AR15.Name = "AR15"
+AR15.Parent = AutoBuyFrame
+AR15.BackgroundColor3 = Color3.fromRGB(36, 36, 36)
+AR15.Position = UDim2.new(0.0620985031, 0, 0.406349242, 0)
+AR15.Size = UDim2.new(0, 408, 0, 42)
+AR15.Font = Enum.Font.SourceSans
+AR15.Text = "Buy \"AR15\""
+AR15.TextColor3 = Color3.fromRGB(255, 255, 255)
+AR15.TextSize = 24.000
+AR15.MouseButton1Down:connect(function()
+	game:GetService("ReplicatedStorage").ToolEvents.AR15Event:FireServer()
+end)
+
+UICorner_9.CornerRadius = UDim.new(0, 10)
+UICorner_9.Parent = AR15
+
+M1GARAND.Name = "M1GARAND"
+M1GARAND.Parent = AutoBuyFrame
+M1GARAND.BackgroundColor3 = Color3.fromRGB(36, 36, 36)
+M1GARAND.Position = UDim2.new(0.0620985031, 0, 0.568253994, 0)
+M1GARAND.Size = UDim2.new(0, 408, 0, 42)
+M1GARAND.Font = Enum.Font.SourceSans
+M1GARAND.Text = "Buy \"M1GARAND\""
+M1GARAND.TextColor3 = Color3.fromRGB(255, 255, 255)
+M1GARAND.TextSize = 24.000
+M1GARAND.MouseButton1Down:connect(function()
+	game:GetService("ReplicatedStorage").ToolEvents.M1GARANDEvent:FireServer()
+end)
+
+UICorner_10.CornerRadius = UDim.new(0, 10)
+UICorner_10.Parent = M1GARAND
+
+AK103.Name = "AK103"
+AK103.Parent = AutoBuyFrame
+AK103.BackgroundColor3 = Color3.fromRGB(36, 36, 36)
+AK103.Position = UDim2.new(0.0620985031, 0, 0.72380954, 0)
+AK103.Size = UDim2.new(0, 408, 0, 42)
+AK103.Font = Enum.Font.SourceSans
+AK103.Text = "Buy \"AK103\""
+AK103.TextColor3 = Color3.fromRGB(255, 255, 255)
+AK103.TextSize = 24.000
+AK103.MouseButton1Down:connect(function()
+	game:GetService("ReplicatedStorage").ToolEvents.AK103Event:FireServer()
+end)
+
+UICorner_11.CornerRadius = UDim.new(0, 10)
+UICorner_11.Parent = AK103
+
+Teleport.Name = "Teleport"
+Teleport.Parent = MainFrame
+Teleport.BackgroundColor3 = Color3.fromRGB(0, 0, 0)
+Teleport.Position = UDim2.new(0.0123538272, 0, 0.342284322, 0)
+Teleport.Size = UDim2.new(0, 82, 0, 36)
+Teleport.Font = Enum.Font.SourceSans
+Teleport.Text = "Teleport"
+Teleport.TextColor3 = Color3.fromRGB(255, 255, 255)
+Teleport.TextScaled = true
+Teleport.TextSize = 14.000
+Teleport.TextWrapped = true
+
+UICorner_12.Parent = Teleport
+
+UIGradient_6.Color = ColorSequence.new{ColorSequenceKeypoint.new(0.00, Color3.fromRGB(244, 255, 234)), ColorSequenceKeypoint.new(1.00, Color3.fromRGB(213, 213, 213))}
+UIGradient_6.Parent = Teleport
+
+TeleportFrame.Name = "TeleportFrame"
+TeleportFrame.Parent = MainFrame
+TeleportFrame.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+TeleportFrame.Position = UDim2.new(0.171469122, 0, 0.110192835, 0)
+TeleportFrame.Size = UDim2.new(0, 467, 0, 315)
+TeleportFrame.Visible = false
+
+UICorner_13.CornerRadius = UDim.new(0, 10)
+UICorner_13.Parent = TeleportFrame
+
+UIGradient_7.Color = ColorSequence.new{ColorSequenceKeypoint.new(0.00, Color3.fromRGB(138, 138, 138)), ColorSequenceKeypoint.new(1.00, Color3.fromRGB(0, 0, 0))}
+UIGradient_7.Offset = Vector2.new(-0.00160003081, 0.0316804424)
+UIGradient_7.Rotation = -2.7591075897217
+UIGradient_7.Transparency = NumberSequence.new{NumberSequenceKeypoint.new(0.00, 0.00), NumberSequenceKeypoint.new(1.00, 0.18)}
+UIGradient_7.Parent = TeleportFrame
+
+W1.Name = "W1"
+W1.Parent = TeleportFrame
+W1.BackgroundColor3 = Color3.fromRGB(36, 36, 36)
+W1.Position = UDim2.new(0.0620984994, 0, 0.088888891, 0)
+W1.Size = UDim2.new(0, 408, 0, 30)
+W1.Font = Enum.Font.SourceSans
+W1.Text = "Teleport Weapon 1"
+W1.TextColor3 = Color3.fromRGB(255, 255, 255)
+W1.TextSize = 24.000
+W1.MouseButton1Down:connect(function()
+	game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = CFrame.new(-420.87085, 9.8805275, -282.336121, 1, 0, 0, 0, 1, 0, 0, 0, 1)
+end)
+
+UICorner_14.CornerRadius = UDim.new(0, 10)
+UICorner_14.Parent = W1
+
+TextLabel_8.Parent = TeleportFrame
+TextLabel_8.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+TextLabel_8.BackgroundTransparency = 1.000
+TextLabel_8.Size = UDim2.new(0, 467, 0, 22)
+TextLabel_8.Font = Enum.Font.SourceSans
+TextLabel_8.Text = "Teleport"
+TextLabel_8.TextColor3 = Color3.fromRGB(255, 255, 255)
+TextLabel_8.TextScaled = true
+TextLabel_8.TextSize = 14.000
+TextLabel_8.TextWrapped = true
+
+W2.Name = "W2"
+W2.Parent = TeleportFrame
+W2.BackgroundColor3 = Color3.fromRGB(36, 36, 36)
+W2.Position = UDim2.new(0.0620984994, 0, 0.212698415, 0)
+W2.Size = UDim2.new(0, 408, 0, 30)
+W2.Font = Enum.Font.SourceSans
+W2.Text = "Teleport Weapon 2"
+W2.TextColor3 = Color3.fromRGB(255, 255, 255)
+W2.TextSize = 24.000
+W2.MouseButton1Down:connect(function()
+	game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = CFrame.new(-77.636116, 5.67074823, -61.6821098, -1, 0, 0, 0, 1, 0, 0, 0, -1)
+end)
+
+UICorner_15.CornerRadius = UDim.new(0, 10)
+UICorner_15.Parent = W2
+
+W3.Name = "W3"
+W3.Parent = TeleportFrame
+W3.BackgroundColor3 = Color3.fromRGB(36, 36, 36)
+W3.Position = UDim2.new(0.0620984994, 0, 0.33015874, 0)
+W3.Size = UDim2.new(0, 408, 0, 30)
+W3.Font = Enum.Font.SourceSans
+W3.Text = "Teleport Weapon 3"
+W3.TextColor3 = Color3.fromRGB(255, 255, 255)
+W3.TextSize = 24.000
+W3.MouseButton1Down:connect(function()
+	game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = CFrame.new(-37.466301, 8.65859413, -51.2366676, -4.37113883e-08, 0, -1, 0, 1, 0, 1, 0, -4.37113883e-08)
+end)
+
+UICorner_16.CornerRadius = UDim.new(0, 10)
+UICorner_16.Parent = W3
+
+TB.Name = "TB"
+TB.Parent = TeleportFrame
+TB.BackgroundColor3 = Color3.fromRGB(36, 36, 36)
+TB.Position = UDim2.new(0.0620984994, 0, 0.450793654, 0)
+TB.Size = UDim2.new(0, 408, 0, 30)
+TB.Font = Enum.Font.SourceSans
+TB.Text = "Teleport Bank"
+TB.TextColor3 = Color3.fromRGB(255, 255, 255)
+TB.TextSize = 24.000
+TB.MouseButton1Down:connect(function()
+	game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = CFrame.new(-128.463669, 15.3068829, 496.753815, -0.342042774, -5.16470244e-08, 0.939684391, -2.92884181e-07, 1, -5.16470244e-08, -0.939684391, -2.92884181e-07, -0.342042774)
+end)
+
+UICorner_17.CornerRadius = UDim.new(0, 10)
+UICorner_17.Parent = TB
+
+-- Scripts:
+
+local function KOZFWOH_fake_script() -- Home.LocalScript 
+	local script = Instance.new('LocalScript', Home)
+
+	script.Parent.MouseButton1Click:connect(function()
+		script.Parent.Parent.HomeFrame.Visible = true
+		script.Parent.Parent.AutoBuyFrame.Visible = false
+		script.Parent.Parent.TeleportFrame.Visible = false
+		wait(0.1)
+	end)
+end
+coroutine.wrap(KOZFWOH_fake_script)()
+local function JFMQX_fake_script() -- MainFrame.LocalScript 
+	local script = Instance.new('LocalScript', MainFrame)
+
+	local UIS = game:GetService('UserInputService')
+	local frame = script.Parent
+	local dragToggle = nil
+	local dragSpeed = 0.25
+	local dragStart = nil
+	local startPos = nil
+	
+	local function updateInput(input)
+		local delta = input.Position - dragStart
+		local position = UDim2.new(startPos.X.Scale, startPos.X.Offset + delta.X,
+			startPos.Y.Scale, startPos.Y.Offset + delta.Y)
+		game:GetService('TweenService'):Create(frame, TweenInfo.new(dragSpeed), {Position = position}):Play()
+	end
+	
+	frame.InputBegan:Connect(function(input)
+		if (input.UserInputType == Enum.UserInputType.MouseButton1 or input.UserInputType == Enum.UserInputType.Touch) then 
+			dragToggle = true
+			dragStart = input.Position
+			startPos = frame.Position
+			input.Changed:Connect(function()
+				if input.UserInputState == Enum.UserInputState.End then
+					dragToggle = false
+				end
+			end)
+		end
+	end)
+	
+	UIS.InputChanged:Connect(function(input)
+		if input.UserInputType == Enum.UserInputType.MouseMovement or input.UserInputType == Enum.UserInputType.Touch then
+			if dragToggle then
+				updateInput(input)
+			end
+		end
+	end)
+end
+coroutine.wrap(JFMQX_fake_script)()
+local function PAWM_fake_script() -- Autobuy.LocalScript 
+	local script = Instance.new('LocalScript', Autobuy)
+
+	script.Parent.MouseButton1Click:connect(function()
+		script.Parent.Parent.HomeFrame.Visible = false
+		script.Parent.Parent.AutoBuyFrame.Visible = true
+		script.Parent.Parent.TeleportFrame.Visible = false
+		wait(0.1)
+	end)
+end
+coroutine.wrap(PAWM_fake_script)()
+local function ZNTJ_fake_script() -- Teleport.LocalScript 
+	local script = Instance.new('LocalScript', Teleport)
+
+	script.Parent.MouseButton1Click:connect(function()
+		script.Parent.Parent.HomeFrame.Visible = false
+		script.Parent.Parent.AutoBuyFrame.Visible = false
+		script.Parent.Parent.TeleportFrame.Visible = true
+		wait(0.1)
+	end)
+end
+coroutine.wrap(ZNTJ_fake_script)()
+local function JXJZ_fake_script() -- NewGUI.Keybind 
+	local script = Instance.new('LocalScript', NewGUI)
+
+	local MainFrame = script.Parent.MainFrame
+	local Opened = false
+	
+	local PositionClosed = UDim2.new(-0.801, 0,0.228, 0)
+	local PositionOpened = UDim2.new(0.194, 0,0.258, 0)
+	
+	local UserInputService = game:GetService("UserInputService")
+	
+	UserInputService.InputBegan:Connect(function(KeyCode)
+		if KeyCode.KeyCode == Enum.KeyCode.Home then
+			if Opened then
+				MainFrame:TweenPosition((PositionClosed), "InOut", "Quint")
+				Opened = false
+			else
+				MainFrame:TweenPosition((PositionOpened), "InOut", "Quart")
+				Opened = true
+			end
+		end
+	end)
+end
+coroutine.wrap(JXJZ_fake_script)()
